@@ -19,7 +19,10 @@ a:hover {
 	background-size: cover;
 	background-image: url(img/header.jpg);
 }
-
+#hidelogo {
+	display:none;
+	visibility:hidden;
+}
 .color-wrapper {
 	display: block;
 	position: absolute;
