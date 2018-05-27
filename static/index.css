@@ -1,5 +1,5 @@
 body {
-	padding-bottom: 500px;
+	padding-bottom: 200px;
 }
 
 a {
@@ -37,3 +37,7 @@ a:hover {
 @media only screen and (max-width: 1800px) { #header-awesome { padding-top: 8%; } }
 @media only screen and (max-width: 1400px) { #header-awesome { padding-top: 4%; } }
 @media only screen and (max-width: 800px) { #header-awesome { padding-top: 4%; } }
+
+.page-footer {
+	margin-top: 100px !important;
+}
