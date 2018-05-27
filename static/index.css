@@ -1,0 +1,39 @@
+body {
+	padding-bottom: 500px;
+}
+
+a {
+	color: #ae4e8e;
+	font-weight:bold;
+}
+
+a:hover {
+	color: #b83b9a;
+}
+.color-container {
+	width: 100%;
+	display: block;
+	padding-top: 40%;
+	background-size: cover;
+	background-image: url(img/header.jpg);
+}
+
+.color-wrapper {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+}
+
+
+#header-awesome {
+	padding-top: 5%;
+	width: 100%;
+}
+
+@media only screen and (max-width: 3000px) { #header-awesome { padding-top: 25%; } }
+@media only screen and (max-width: 2500px) { #header-awesome { padding-top: 18%; } }
+@media only screen and (max-width: 2200px) { #header-awesome { padding-top: 13%; } }
+@media only screen and (max-width: 1800px) { #header-awesome { padding-top: 8%; } }
+@media only screen and (max-width: 1400px) { #header-awesome { padding-top: 4%; } }
+@media only screen and (max-width: 800px) { #header-awesome { padding-top: 4%; } }
