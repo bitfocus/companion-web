@@ -8,4 +8,5 @@ $(function() {
 		$('#download-location').html("<strong>Mac</strong> companion-v"+data.version+"-beta-osx.dmg");
 	});
 
+
 });

@@ -4,6 +4,12 @@ body {
 h1 {
 	display:none;
 }
+h2 {
+}
+h3 {
+	padding-top: 0.6em;
+	font-size: 1.5em;
+}
 a {
 	color: #ae4e8e;
 	font-weight:bold;
