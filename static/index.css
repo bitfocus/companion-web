@@ -1,7 +1,9 @@
 body {
 	padding-bottom: 200px;
 }
-
+h1 {
+	display:none;
+}
 a {
 	color: #ae4e8e;
 	font-weight:bold;
