@@ -13,7 +13,7 @@
 		<meta name="keywords" content="Companion,Elgato,Streamdeck,qlab,eventmaster,e2,mitti,software">
 		<meta name="description" content="Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.">
 		<meta name="author" content="Bitfocus AS">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link href="index.css" rel="stylesheet">
 	</head>
 
@@ -39,7 +39,7 @@
 
 						<h3 class='dltitle'>Download lastest release</h3>
 						<p><img src='img/dl.png' id='dlicon'> <a href="#" id='download-location'></a></p>
-						<p><small>Daredevils downloads bleeding edge builds from our <a href='https://builds.bitfocus.io/companion/'>builds.bitfocus.io</a> directly, but <strong>please</strong> avoid using those versions in a production environment!</small></p>
+						<p><small>Daredevils download bleeding edge builds from <a href='https://builds.bitfocus.io/companion/'>builds.bitfocus.io</a> directly, but <strong>please</strong> avoid using those versions in a production environment!</small></p>
 
 						<h3>Key features</h3>
 						<ul>
@@ -54,22 +54,89 @@
 
 						<h3>Current support</h3>
 						<ul>
-							<li>Barco EventMaster</li>
-							<li>Millumin</li>
-							<li>QLab</li>
-							<li>Mitti</li>
-							<li>PlaybackPro Plus</li>
-							<li>OSC Generic (sendt custom packets)</li>
-							<li>d3/disguise (osc control)</li>
+							<li>AnalogWay Livecore <span class="badge badge-success">New</span></li>
+                                                        <li>Artnet Sender <span class="badge badge-success">New</span></li>
+							<li>Apple Keynote (via Octopus Listener) <span class="badge badge-success">New</span></li>
+                                                        <li>Barco EventMaster</li>
+							<li>Barco PDS <span class="badge badge-warning">Newish</span></li>
+							<li>Blackmagic Design ATEM <span class="badge badge-success">New</span></li>	
+                                                        <li>Blackmagic Design Hyperdeck <span class="badge badge-success">New</span></li>
+							<li>Blackmagic Design VideoHub <span class="badge badge-success">New</span></li>
+							<li>Caspar CG <span class="badge badge-success">New</span></li>
+							<li>d3/disguise (json, multi transport control) <span class="badge badge-success">New</span></li>
 							<li>Dataton Watchout</li>
-							<li>IfElseWare AV-Playback <span class="badge badge-success">New</span></li>
-							<li>Ross Carbonite/Vision <span class="badge badge-success">New</span></li>
-							<li>Spyder <span class="badge badge-success">New</span></li>
-							<li>Digital Projection Highlight <span class="badge badge-success">New</span></li>
-							<li>Barco PDS <span class="badge badge-success">New</span></li>
-							<li>PJLink <span class="badge badge-success">New</span></li>
+							<li>Digital Projection Highlight <span class="badge badge-warning">Newish</span></li>
+							<li>GrandMA 2 (telnet) <span class="badge badge-success">New</span></li>
+							<li>Horae <span class="badge badge-success">New</span></li>
+							<li>IfElseWare AV-Playback <span class="badge badge-warning">Newish</span></li>
+							<li>Irisdown Remote Show Control <span class="badge badge-success">New</span></li>
+                                                        <li>Microsoft Powerpoint (via Octopus Listener and Irisdown Remote Show control) <span class="badge badge-success">New</span></li>
+                                                     	<li>Millumin</li>
+                                                  	<li>Mitti</li>
+							<li>OSC Generic (send custom packets)</li>
+							<li>Octopus Listener <span class="badge badge-success">New</span></li>
+							<li>PJLink <span class="badge badge-warning">Newish</span></li>
+							<li>PlaybackPro Plus</li>				
+							<li>QLab</li>
+							<li>Renewed Vision PVP <span class="badge badge-success">New</span></li>	
+                                                        <li>Ross Carbonite/Vision <span class="badge badge-warning">Newish</span></li>
+                                                        <li>Spyder <span class="badge badge-warning">Newish</span></li>
+                                                        <li>VLC <span class="badge badge-success">New</span></li>
 						</ul>
-						<p>See the list of <a href="https://github.com/bitfocus/companion#current-support" target="_new">planned support</a> or our most recent <a href="https://github.com/bitfocus/companion/blob/master/CHANGELOG.md" target="_new">changelog</a></p>
+					
+						<h3>Planned support</h3>
+						<ul>
+							<li>7th Sense Delta Media server
+							<li>AJA Kipro Ultra Plus</li>
+							<li>AnalogWay Vio 4K</li>
+							<li>Analogway Midra</li>
+							<li>Arkaos Grand VJ / Mediamaster</li>
+							<li>Avolites AI</li>
+							<li>Barco DCS 100/200</li>
+							<li>Barco Projectors</li>
+							<li>Behringer X-air</li>
+							<li>Behringer X32 / Midas M32</li> 
+							<li>Chamsys MagicQ</li>
+							<li>Christie Projectors</li>
+							<li>Dante Audio Routing</li>
+							<li>Ember+</li>
+							<li>Entec DMXPro</li>
+							<li>Epson Projectors </li>
+							<li>Extron Matrix Routers</li>
+							<li>Extron Presentation Switchers</li>
+							<li>GrassValley AMP protocol</li>
+							<li>GrassValley Switchers</li>
+							<li>Green Hippo</li>
+							<li>GreenGo Digital</li>
+							<li>Kramer Matrix Routers</li>
+							<li>Kramer Presentation Switchers</li>
+							<li>Lightware LW2 Devices </li>
+							<li>Lightware LW3 Devices</li>
+							<li>Modulo Pi Modulo Player</li>
+							<li>Motu AVB interfaces / Mixers</li>
+							<li>NEC Projectors</li>
+							<li>Nevion Routers</li>
+							<li>Newtek Tricaster</li>
+							<li>OBS</li>
+							<li>Panasonic AW-HS50/AV-HS410 Switchers </li>
+							<li>Panasonic PTZ</li>
+							<li>Panasonic Projectors</li>
+							<li>Philips Hue</li>
+							<li>Resolume</li>
+							<li>Roland XS series</li>
+							<li>Show Cue System (Windows)</li>
+							<li>Sony / VISCA PTZ</li>
+							<li>TASCAM SS-CDR250N</li>
+							<li>TJ Show (Windows)</li>
+							<li>TSL Protocol</li>
+							<li>UDP/TCP Generic module</li>
+							<li>V-mix</li>
+							<li>VYV Photon</li>
+							<li>VirtualVTR PRO *(Mac)</li>
+							<li>Wirecast</li>
+							<li>Yamaha Ql series Consoles</li>
+						</ul>
+						<p>See the updated list of <a href="https://github.com/bitfocus/companion#current-support" target="_new">planned support</a> or our most recent <a href="https://github.com/bitfocus/companion/blob/master/CHANGELOG.md" target="_new">changelog</a></p>
 						<!--
 					<h3>Thumbnails</h3>
 				-->
@@ -132,9 +199,8 @@
 		<!-- Footer -->
 
 
-		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="index.js"></script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
