@@ -34,6 +34,9 @@
 					<h2>What does it do?</h2>
 					<p><strong>Bitfocus Companion</strong> enables the reasonably priced <a href='https://www.amazon.com/gp/product/B06XKNZT1P/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06XKNZT1P&linkCode=as2&tag=bitfocus-20&linkId=d6ac937c8f194821d151e7ada7abb3fe' target='_new'>Elgato Streamdeck</a> to be a professional shotbox surface for
 						an increasing amount of different presentation switchers, video playback software and broadcast equipment.</p>
+						<p>You <b>don't need</b> an actual streamdeck to use it. Companion both comes with a builtin streamdeck emulator, a webpage for touch screens and the ability to trigger buttons via OSC.
+						It does the same job, just without the buttons.</p>
+
 						<h3 class='dltitle'>Download lastest release</h3>
 						<p><img src='img/dl.png' id='dlicon'> <a href="#" id='download-location'></a></p>
 						<p><small>Daredevils download bleeding edge builds from <a href='https://builds.bitfocus.io/companion/'>builds.bitfocus.io</a> directly, but <strong>please</strong> avoid using those versions in a production environment!</small></p>
@@ -41,92 +44,105 @@
 						<h3>Key features</h3>
 						<ul>
 							<li>Button designer - Either with colored text or upload your own images</li>
+							<li>Feedback - Devices can give feedback to buttons to display state etc.</li>
 							<li>Stacked actions - Run multiple actions from the same button</li>
 							<li>Delayed actions - Set delay time individually for each action</li>
 							<li>Multi device - Have multiple streamdecks connected at once</li>
 							<li>Web admin - Configure the system from any browser in the network</li>
+							<li>Latching - Separate actions for key down and up, and ability to latch/toggle</li>
 						</ul>
 
 						<h3>Current support</h3>
 						<ul>
-							<li>AnalogWay Livecore <span class="badge badge-success">New</span></li>
-                                                        <li>Artnet Sender <span class="badge badge-success">New</span></li>
-							<li>Apple Keynote (via Octopus Listener) <span class="badge badge-success">New</span></li>
-                                                        <li>Barco EventMaster</li>
-							<li>Barco PDS <span class="badge badge-warning">Newish</span></li>
-							<li>Blackmagic Design ATEM <span class="badge badge-success">New</span></li>	
-                                                        <li>Blackmagic Design Hyperdeck <span class="badge badge-success">New</span></li>
-							<li>Blackmagic Design VideoHub <span class="badge badge-success">New</span></li>
-							<li>Caspar CG <span class="badge badge-success">New</span></li>
-							<li>d3/disguise (json, multi transport control) <span class="badge badge-success">New</span></li>
+							<li>7th Sense Delta Media server <span class="badge badge-success">New</span></li>
+							<li>AnalogWay Livecore  </li>
+							<li>AJA Kipro Ultra <span class="badge badge-success">New</span></li>
+							<li>AJA Helo <span class="badge badge-success">New</span></li>
+							<li>Artnet Sender  </li>
+							<li>Apple Keynote (via Octopus Listener)  </li>
+							<li>AnalogWay Vio 4K <span class="badge badge-success">New</span></li>
+							<li>Analogway Midra <span class="badge badge-warning">Testing</span></li>
+							<li>Analogway Pulse (PLS300) <span class="badge badge-warning">Testing</span></li>
+							<li>Barco DCS 100/200 <span class="badge badge-success">New</span></li>
+							<li>Barco EventMaster</li>
+							<li>Barco PDS</li>
+							<li>Behringer X32 / Midas M32 <span class="badge badge-success">New</span></li>
+							<li>Behringer X-air / Midas XR series <span class="badge badge-success">New</span></li>
+							<li>Blackmagic Design ATEM  </li>
+							<li>Blackmagic Design Hyperdeck  </li>
+							<li>Blackmagic Design Smart View / Smart Scope <span class="badge badge-success">New</span></li>
+							<li>Blackmagic Design VideoHub  </li>
+							<li>Caspar CG  </li>
+							<li>Christie Projectors <span class="badge badge-warning">Testing</span></li>
+							<li>d3/disguise (json, multi transport control)  </li>
 							<li>Dataton Watchout</li>
-							<li>Digital Projection Highlight <span class="badge badge-warning">Newish</span></li>
-							<li>GrandMA 2 (telnet) <span class="badge badge-success">New</span></li>
-							<li>Horae <span class="badge badge-success">New</span></li>
-							<li>IfElseWare AV-Playback <span class="badge badge-warning">Newish</span></li>
-							<li>Irisdown Remote Show Control <span class="badge badge-success">New</span></li>
-                                                        <li>Microsoft Powerpoint (via Octopus Listener and Irisdown Remote Show control) <span class="badge badge-success">New</span></li>
-                                                     	<li>Millumin</li>
-                                                  	<li>Mitti</li>
+							<li>Digital Projection Highlight</li>
+							<li>Epson Projectors <span class="badge badge-success">New</span></li>
+							<li>Globalcashe-itac-ir <span class="badge badge-success">New</span></li>
+							<li>Globalcashe-itac-cc <span class="badge badge-success">New</span></li>
+							<li>GrandMA 2 (telnet) </li>
+							<li>GrassValley AMP protocol <span class="badge badge-success">New</span></li>
+							<li>High End Systems Hog 4 <span class="badge badge-success">New</span></li>
+							<li>Horae </li>
+							<li>HTTP Post/Get <span class="badge badge-warning">Testing</span></li>
+							<li>IfElseWare AV-Playback </li>
+							<li>Irisdown Remote Show Control </li>
+							<li>Irisdown Countdown Timer 2.0 <span class="badge badge-success">New</span></li>
+							<li>Kramer VP-727 <span class="badge badge-success">New</span></li>
+							<li>Lightware LW2 Devices <span class="badge badge-success">New</span></li>
+							<li>Lightware LW3 Devices <span class="badge badge-success">New</span></li> 
+							<li>Microsoft Powerpoint (via Octopus Listener and Irisdown Remote Show control) </li>
+							<li>Millumin</li>
+							<li>Mitti</li>
+							<li>Modulo Pi Modulo Player <span class="badge badge-success">New</span></li> 
+							<li>Motu AVB interfaces / Mixers <span class="badge badge-success">New</span></li> 
 							<li>OSC Generic (send custom packets)</li>
-							<li>Octopus Listener <span class="badge badge-success">New</span></li>
-							<li>PJLink <span class="badge badge-warning">Newish</span></li>
-							<li>PlaybackPro Plus</li>				
+							<li>Octopus Listener </li>
+							<li>Panasonic AW-HS50/AV-HS410 Switchers <span class="badge badge-success">New</span></li>
+							<li>PJLink</li>
+							<li>PlaybackPro Plus</li>
 							<li>QLab</li>
-							<li>Renewed Vision PVP <span class="badge badge-success">New</span></li>	
-                                                        <li>Ross Carbonite/Vision <span class="badge badge-warning">Newish</span></li>
-                                                        <li>Spyder <span class="badge badge-warning">Newish</span></li>
-                                                        <li>VLC <span class="badge badge-success">New</span></li>
+							<li>Renewed Vision PVP </li>
+							<li>Renewed Vision ProPresenter 6 <span class="badge badge-success">New</span>
+							<li>Resolume <span class="badge badge-success">New</span>
+							<li>Ross Carbonite/Vision <span class="badge badge-warning">Testing</span></li>
+							<li>Spyder <span class="badge badge-warning">Testing</span></li>
+							<li>Show Cue System <span class="badge badge-success">New</span></li>
+							<li>StudioCoast vMix <span class="badge badge-success">New</span>
+							<li>TASCAM SS-CDR250N <span class="badge badge-success">New</span>
+							<li>VLC </li>
+							<li>VYV Photon <span class="badge badge-success">New</span>
 						</ul>
-					
+
 						<h3>Planned support</h3>
 						<ul>
-							<li>7th Sense Delta Media server
-							<li>AJA Kipro Ultra Plus</li>
-							<li>AnalogWay Vio 4K</li>
-							<li>Analogway Midra</li>
 							<li>Arkaos Grand VJ / Mediamaster</li>
 							<li>Avolites AI</li>
-							<li>Barco DCS 100/200</li>
+							<li>Barco Imagepro</li>
 							<li>Barco Projectors</li>
-							<li>Behringer X-air</li>
-							<li>Behringer X32 / Midas M32</li> 
 							<li>Chamsys MagicQ</li>
-							<li>Christie Projectors</li>
 							<li>Dante Audio Routing</li>
 							<li>Ember+</li>
 							<li>Entec DMXPro</li>
-							<li>Epson Projectors </li>
 							<li>Extron Matrix Routers</li>
-							<li>Extron Presentation Switchers</li>
-							<li>GrassValley AMP protocol</li>
+							<li>Extron Presentation Switchers</li>		
 							<li>GrassValley Switchers</li>
 							<li>Green Hippo</li>
 							<li>GreenGo Digital</li>
 							<li>Kramer Matrix Routers</li>
-							<li>Kramer Presentation Switchers</li>
-							<li>Lightware LW2 Devices </li>
-							<li>Lightware LW3 Devices</li>
-							<li>Modulo Pi Modulo Player</li>
-							<li>Motu AVB interfaces / Mixers</li>
+							<li>Kramer Presentation Switchers</li>								
 							<li>NEC Projectors</li>
 							<li>Nevion Routers</li>
 							<li>Newtek Tricaster</li>
-							<li>OBS</li>
-							<li>Panasonic AW-HS50/AV-HS410 Switchers </li>
+							<li>OBS</li>				
 							<li>Panasonic PTZ</li>
 							<li>Panasonic Projectors</li>
 							<li>Philips Hue</li>
-							<li>Resolume</li>
 							<li>Roland XS series</li>
-							<li>Show Cue System (Windows)</li>
-							<li>Sony / VISCA PTZ</li>
-							<li>TASCAM SS-CDR250N</li>
+							<li>Sony / VISCA PTZ</li>					
 							<li>TJ Show (Windows)</li>
 							<li>TSL Protocol</li>
-							<li>UDP/TCP Generic module</li>
-							<li>V-mix</li>
-							<li>VYV Photon</li>
+							<li>UDP/TCP Generic module</li>					
 							<li>VirtualVTR PRO *(Mac)</li>
 							<li>Wirecast</li>
 							<li>Yamaha Ql series Consoles</li>
@@ -152,21 +168,27 @@
 					</p>
 					<h3>Maintainers</h3>
 					<ul>
-						<li><a href='https://www.facebook.com/willosof' target='_new'>William Viker</a></li>
+						<li><a href='https://www.facebook.com/willosof' target='_new'>William Viker</a> (maintainer)</li>
 						<li><a href='https://www.facebook.com/haakon.nessjoen' target='_new'>Håkon Nessjøen</a></li>
 					</ul>
 					<h3>Developers</h3>
 					<ul>
-					<li><a href='https://github.com/dnmeid' target='_new'>Dorian Meid</a></li>
-					<li><a href='https://github.com/PerRoine' target='_new'>Per Røine</a></li>
+						<li><a href='https://github.com/PerRoine' target='_new'>Per Røine</a></li>
+						<li><a href='https://github.com/dnmeid' target='_new'>Dorian Meid</a></li>
 					</ul>
 					<h3>Contributors</h3>
-					<p>
-						<a href='https://github.com/Deanbau' target='_new'>Deanbau</a>,
-						<a href='https://github.com/nikb72' target='_new'>nikb72</a>,
-						<a href='https://www.facebook.com/daniel.richert?fref=gs&dti=2047850215433318&hc_location=group_dialog' target='_new'>Daniel Richert</a>
-						 and the rest of the fine folks over at our slack group!
-					</p>
+					<ul>
+						<li><a href="https://www.facebook.com/dave.shepherd.5494">Dave Shepherd</a></li>
+						<li><a href="https://github.com/silid">Simon Liddicott</a></li>
+						<li><a href="https://github.com/cxselph">Casey Selph</a></li>
+						<li><a href="https://github.com/JeffreyDavidsz">Jeffrey Davidsz</a></li>
+						<li><a href="https://www.facebook.com/tyl3r.krupa?fref=gc&dti=2047850215433318">Tyler Krupa</a></li>
+						<li><a href="https://github.com/craftbyte">Anže Jenšterle</a></li>
+						<li><a href='https://github.com/Deanbau' target='_new'>Deanbau</a></li>
+						<li><a href='https://github.com/nikb72' target='_new'>nikb72</a></li>
+						<li><a href='https://github.com/dnny' target='_new'>Daniel Richert</li>
+						<li>and the rest of the fine folks over at our slack group!</li>
+					</ul>
 				</div>
 
 			</div>
