@@ -12,3 +12,6 @@ LAST="$(ls -tl *armv7l*|grep -v '\->'|head -n 1|cut -d' ' -f9)"
 
 rm -rf /opt/builds/companion/companion-latest-armv7l.tar.gz
 ln -s /opt/builds/companion/${LAST} /opt/builds/companion/companion-latest-armv7l.tar.gz
+
+cd /opt/buikds/companion
+( for name in *.exe *osx.zip *linux.tar.gz *armv7l.tar.gz ; do md5sum "$name" ; done ) > checklist.txt
